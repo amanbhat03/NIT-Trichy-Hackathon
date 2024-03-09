@@ -20,7 +20,7 @@ const HealthcareAssistant = () => {
     } else if (userInput.toLowerCase().includes('i took crocin')) {
       setResponse('I understand that you took crocin for the fever, but regarding the changes, please specify what changes you have observed? For example, do you feel dehydrated and drained?');
     } else if (userInput.toLowerCase().includes('thanks for helping me')) {
-      setResponse('You are welcome. It is important for us to understand the specific changes to provide the best care. Have you had any breast surgeries or biopsies in the past?');
+      setResponse('You are welcome. It is important for us to understand the specific changes to provide the best care.');
     } else if (userInput.toLowerCase().includes('let us end the chat')) {
       setResponse('I have asked all the questions. Thank you for your responses. I will send the summary of our conversation to your care team.');
     } else {
@@ -49,9 +49,9 @@ const HealthcareAssistant = () => {
   return (
     <div className="healthcare-assistant">
       <div className="assistant-container">
-        <h1>Dana your Virtual Healthcare Assistant</h1>
+        <h1>MedBot - Virtual Healthcare Assistant</h1>
         <div className="user-input">
-          <label htmlFor="userInput">Hello, I'm Dana! I specialize in oncology, and I'm here to talk with you about your health and any concerns you might have. Let's start with some questions to better understand your situation:</label>
+          <label htmlFor="userInput">Hello! I'm MedBot your virtual assistant and I am here to talk with you about your health and any concerns you might have. Let's start with some questions to better understand your situation:</label>
           <input
             type="text"
             value={userInput}
