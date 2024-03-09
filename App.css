@@ -1,0 +1,78 @@
+/* App.css */
+
+.healthcare-access-platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://etimg.etb2bimg.com/photo/100166038.cms');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard {
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard p {
+  margin-bottom: 20px;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #bd2130;
+}
